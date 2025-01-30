@@ -1,0 +1,105 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+}
+#root {
+  width: 1280px;
+  background-color: rgb(250, 163, 225);
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  border: solid 2px plum;
+  border-radius: 20px;
+}
+#form{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-top: 90px;
+  padding: 15px;
+  background-color: rgba(207, 31, 134, 0.147);
+  border-radius: 20px
+}
+.titleForm{
+  background-color: ;
+}
+input{
+  width: 200px;
+  height: 20px;
+  margin: 5px;
+  padding: 5px;
+  border: 0;
+  border-radius: 10px;
+}
+#submitBtn{
+  background-color:rgb(255, 0, 183);
+  align-self: center;
+  height: 40px;
+  width: 150px;
+  margin-top: 30px;
+}
+.card {
+  padding: 2em;
+  margin: 0 70px;
+}
+.backgroundOrange> div{
+  width: 25px;
+}
+
+.backgroundOrange :hover{
+  background-color: rgb(255, 0, 183);
+}
+.selected{
+  background-color: rgb(255, 0, 183);
+  border-radius: 50%;
+}
+.month {
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+.grid-7 {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  text-align: center;
+}
+.grid-7 > div {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.grid-7.days > div {
+  margin: 3px;
+  border: 1px solid gray;
+}
+label{
+  font-weight: bold;
+  margin-top: 5px;
+}
+.listEvent{
+  margin-top: 110px;
+  width: 340px;
+  background-image: url('coquette.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 15px;
+  border-radius: 20px;
+}
+.transbox{
+  background-color: rgba(207, 31, 134, 0.293);
+  padding: 15px;
+  border-radius: 20px;
+  height: auto;
+}
+.titleListEvent{
+  margin: 0;
+}
