@@ -30,3 +30,5 @@ Fonctionnalités:
   Vite
   JavaScript (ES6+)
   CSS
+
+![Capture d'écran 2025-01-30 213530](https://github.com/user-attachments/assets/924ebf79-816e-41b3-9d32-07d8f9aa35db)
